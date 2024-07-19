@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: yellowgreen;
+  /* color: black; */
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.project-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 1em;
+  width: 100%;
+  max-width: 300px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1em;
+}
+
+form input,
+form textarea {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 0.5rem
+}
+
+form button {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}

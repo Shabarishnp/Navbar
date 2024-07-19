@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Navbar.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+    <!-- Bio Section -->
+    <section id="bio">
+      <h1>About Me</h1>
+      <p>
+        “A Computer Science Engineering graduate” Seeking for a position in the
+        field of Software Engineering or related position which offers key
+        participation, team oriented tasks, immediate challenges and career
+        opportunity.
+      </p>
+      <p>
+        My Portfolio Link :
+        https://shabarishnpportfolioshabarish-n-ps-projects.vercel.app/
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="project-section">
+        <div class="project">
+          <img src="gram.png" alt="Project 1" />
+          <h2>ICEBPGS</h2>
+          <p>
+            (Final Year Project) A Gram Panchayat’s Govt. Schemes Web
+            Application, Backend: Python Language using Django Framework with
+            MongoDB.
+          </p>
+        </div>
+        <div class="project">
+          <img src="dbms.png" alt="Project 2" />
+          <h2>Dairy Farm Shop Management System</h2>
+          <p>
+            (Academic project) This Mini project is built using web programming
+            languages like HTML, CSS, JavaScript. SQL was used for the backend
+            part of the project through PHP My Admin. Allowed the admin to
+            perform CRUD Operations and analyze triggers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <script src="Navbar.js"></script>
+  </body>
+</html>
